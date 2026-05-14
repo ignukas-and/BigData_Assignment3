@@ -15,7 +15,6 @@ input_file = "aisdk-2026-01-01.csv"
 dir_input = "../input/"
 dir_output = "../output/"
 
-
 def insert_data(rows):
     client = MongoClient(
     client_url,
